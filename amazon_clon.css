@@ -5,14 +5,14 @@
 
 }
 /* navigation baar */
-#navbar
+.navbar
 {
     height: 60px;
     background-color: black;
     COLOR: WHITE;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 /* navigation bar logo */
 .navlogo
@@ -154,43 +154,35 @@ cart i
     align-items: flex-end;
    
 }
-.hero_msg a
+.hero_msg
 {
-    text-decoration: none;
     background-color: white;
     color: black;
-    height: 40px;
-    width: 1300px;
+    height: 30px;
+    width: 80%;
     top: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 0.85rem;
     margin-bottom: 25px;
-    font-size: large;
     
     
 }
 /* hero section over */
 /* shope section */
-.container1 
+.container1
 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #e2e7e6;
-}
-.container1 h2
-{
-    margin-left: 14px;
+    background-color: antiquewhite;
 }
 .box
 {
     height: 400px;
     width: 24%;
+    border: 2px solid black;
     background-color: white;
-    padding: 20px 0px 15px;
-    margin-top: 16px;
 }
 .bgimage
 {
@@ -198,95 +190,9 @@ cart i
     padding: 20px 0px 15px;
     margin-left: 10px;
     margin-right: 10px;
-    background-size: cover;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
    
 }
-.box-content p
+/* .bgimage
 {
-    margin-left: 10px;
-    margin-right: 10px;
-    color: blue;
-}
-/* shop section ended */
-/* footer section staart */
-footer
-{
-    margin-top: 15px;
-}
-    /* back to top button  */
-
-.backtotop 
-{
-    background-color: #37475a;
-    color: white;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
-}
-.backtotop a
-{
-    color: white;
-    font-size: large;
-    text-decoration: none;
-}
-.footerlist
-{
-    display: flex;
-    justify-content: space-around;
-    background-color: #222f3d;
-    color: white;
-    height: 350px;
-    
-}
-.ul
-{
-    margin-top: 20px;
-}
-.ul p
-{
-    display: block;
-    font-size: 0.85rem;
-    margin-top: 15px;
-   
-}
-.footerpannel
-{
-    border-top: 0.5px white;
-    background-color: #222f3d;
-    color: white;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.logo
-{
-    background-image: url(amazon_logo.png);
-    width: 100px;
-
-}
-.t_c
-{
-    background-color: black;
-    color: white;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    height: 80px;
-}
-.reach
-{
-    font-size: 0.7rem;
-    text-align: center;
-    padding-top: 25px;
-}
-.copyright
-{
-    font-size: 0.7rem;
-    text-align: center;
-    margin-top: 5px;
-}
+  
+} */
